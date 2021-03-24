@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        body {
+            background-color: rgb(144, 117, 117);
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: rgb(219, 137, 219);
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            border: 2px solid rgb(158, 165, 156);
+            background-color: rgb(2, 1, 1);
+            /* animation-name: roll;
+            animation-duration: 2s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease-in-out;
+            animation-delay: 1s; */
+            /* animation-direction: reverse; */
+            /* animation: roll 2s ease-in 2s 1 forwards; */
+        }
+
+        .box:hover {
+            background-color: rgb(255, 255, 255);
+            /* this is how is the height width and background color is set at once   */
+            /* transition: width 2s, height 2s, background-color 2s;     */
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 200px;
+            height: 200px;
+            border-radius: 20px;
+            cursor: pointer;
+            /* transform: rotate(360deg);*/
+
+            /* transform: translateX(123px);
+            transform: translateY(123px); */
+            transform: translate(123px, 123px);
+            /* transition: all 0.5s ease-in-out;
+            transform: scale(2); */
+            transform: skew(180deg);
+        }
+
+        /* @keyframes roll {
+                0% {
+                    top: 0px;
+                    left: 0px;
+                }
+
+                25% {
+                    top: 200px;
+                    left: 0px;
+                }
+
+                50% {
+                    top: 200px;
+                    left: 200px;
+                }
+
+                75% {
+                    top: 0px;
+                    left: 200px;
+
+                }
+
+                100% {
+                    top: 0px;
+                    left: 0px;
+                }
+            }
+
+            @keyframes roll {
+                from {
+                    width: 100px;
+                    height: 0px;
+                }
+
+                to {
+                    width: 1000px
+                }
+            } */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            This Is My BOX
+        </div>
+    </div>
+</body>
+
+</html>

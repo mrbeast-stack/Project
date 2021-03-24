@@ -1,0 +1,164 @@
+body img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* #home */
+
+#logo span a {
+    font-size: 15px;
+}
+
+#home {
+    width: auto;
+    height: auto;
+    padding: 3px 28px;
+    margin-bottom: 67px;
+}
+
+#home h1 {
+    font-size: 25px;
+    text-align: center;
+}
+
+#home .btn {
+    font-size: 11px;
+    width: 26%;
+    padding: 3px 0px;
+    margin: 14px;
+    border: 1px solid black;
+    font-weight: 600;
+    background-color: rgb(85 97 99 / 89%);
+}
+
+#navbar::before {
+    height: 85%;
+}
+
+#navbar li a {
+    padding: 1px 2px;
+    letter-spacing: 1px;
+    transition: all 0.4s ease-in-out;
+}
+
+#home p {
+    font-size: 15px;
+    margin: auto;
+    font-family: 'Proza Libre', sans-serif;
+    text-align: center;
+    width: 65%;
+    letter-spacing: 1px;
+    margin: auto;
+}
+
+#navbar {
+    width: auto;
+    flex-direction: column;
+}
+
+#navbar ul {
+    width: 81%;
+}
+
+.right span a {
+    display: block;
+    width: auto;
+    position: absolute;
+    font-size: 12px;
+    line-height: 14px;
+    margin: -121px 0px auto 93px;
+}
+
+#navbar li a {
+    margin: -8px -12px;
+    padding: 0px -11px;
+    font-size: 12px;
+    width: 272%;
+}
+
+/* about us */
+
+/* services */
+
+#services {
+    flex-direction: column;
+    padding: 45px;
+}
+
+#services .box {
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+}
+
+#services .box p {
+    text-align: center;
+    padding: 2px;
+    font-size: 11px;
+}
+
+#services .box span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 4px;
+    font-size: 15px;
+    font-family: 'kanit';
+    letter-spacing: 1px;
+}
+
+#clients {
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+#clients img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#mypartners h3 {
+    font-size: 10px;
+}
+
+#clients img:hover {
+    width: 120px;
+    height: 120px;
+    transition: all 0.4s ease-in-out;
+}
+
+/* footer */
+footer{
+    font-size: 10px;
+}
+
+.h-primary {
+    margin: 0px auto;
+    word-spacing: 1px;
+    text-align: center;
+    font-size: 25px;
+    padding: 0px;
+}
+
+.h-secondary {
+    font-size: 25px;
+    padding: 0px;
+}
+
+/* contact */
+
+#contact-box label {
+    font-size: 10px;
+}
+
+#contact-box textarea,#contact-box input {
+    width: 100%;
+    padding: 8.5px;
+    font-size: 8px;
+    margin: 1px 0px;
+    border-radius: 8px;
+    border: 1px solid black ;
+}

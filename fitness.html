@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Point</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 0px;
+            margin: 0px;
+            background-image: url('gym.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            margin-left: 25px;
+            cursor: pointer;
+        }
+
+        .left img {
+            width: 50px;
+            filter: invert(82%);
+            margin-left: 12.5px;
+
+        }
+
+        .left img:hover {
+            filter: invert(28%);
+            cursor: pointer;
+        }
+
+        .navbar {
+            /* border: 2px solid black; */
+            width: 53%;
+            margin-top: 7px;
+            margin-left: 150px;
+        }
+
+        h5 {
+            text-align: center;
+            margin-top: 4px;
+            font-family: 'Passion One', cursive;
+            color: #141d1c;
+        }
+
+        h5:hover {
+            filter: invert(60%);
+        }
+
+        .navbar li {
+            display: inline;
+            margin: auto 25px;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: #b4b8b1;
+            font-family: 'Passion One', cursive;
+            font-size: 25px;
+
+        }
+
+        .navbar li a:hover {
+            text-decoration: underline;
+            color: rgb(117, 99, 99);
+        }
+
+        .right {
+            float: right;
+            margin: -45px 27px;
+        }
+
+        .form {
+            display: block;
+            margin: auto;
+        }
+
+        .btn {
+            font-family: 'Passion One', cursive;
+            padding: 9px 9px;
+            font-size: 22px;
+            border-radius: 20px;
+            cursor: pointer;
+            color: rgb(84 71 71);
+            background-color: #b4b8b1;
+        }
+
+        .btn:hover {
+            color: black;
+            background-color: gray;
+            text-decoration-line: underline;
+            text-decoration-color: rgb(117, 99, 99);
+        }
+
+        .container h1 {
+            font-family: 'Krona One', sans-serif;
+            margin-top: 115px;
+            color: #dae6d1;
+            text-align: center;
+        }
+
+        .container h1:hover {
+            text-decoration-color: gray;
+            text-decoration-line: underline;
+
+        }
+
+        .form-group {
+            width: 200px;
+            margin: 0 auto;
+            text-align: center;
+            font-family: 'Passion One', cursive;
+
+        }
+
+        .form-group input {
+            text-align: center;
+            padding: 1px;
+            font-family: 'Passion One', cursive;
+            margin: 2px auto;
+            border-radius: 25px;
+            background-color: #d8c9c9;
+            font-size: 22px;
+        }
+
+        .btn1 {
+            font-family: 'Passion One', cursive;
+            padding: 1px 4px;
+            font-size: 15 px;
+            cursor: pointer;
+            color: rgb(84 71 71);
+            background-color: #b4b8b1;
+        }
+
+        .btn1:hover {
+            color: black;
+            background-color: gray;
+            text-decoration-line: underline;
+            text-decoration-color: rgb(117, 99, 99);
+        }
+
+        span {
+            text-align: center;
+            display: block;
+            margin: auto;
+            margin-right: 60px;
+        }
+
+        h4 {
+            text-align: center;
+            margin: auto;
+            font-size: 20px;
+            color: #c7c7c4;
+        }
+
+        .center label {
+            display: flex;
+            align-items: right;
+        }
+
+        .center label span {
+            position: absolute;
+            margin: 0px 42px;
+            color: black
+        }
+
+        .navbar ul li .homesec:hover {
+            color: rgb(146, 135, 135);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="gymlogo.jpg" alt="LOGO">
+            <h5>FITNESS POINT</h5>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li> <a class="homesec" href="#Home" target='_self'> Home </a></li>
+                <li> <a href="#About"> About Us </a></li>
+                <li> <a href="#Services"> Services </a></li>
+                <li> <a href="#Courses"> Courses </a></li>
+                <li> <a href="#Trainers"> Trainers </a></li>
+            </ul>
+        </nav>
+        <div class="right">
+            <button class="btn">Call Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <h1>Join the best GYM and Enroll now :-</h1>
+
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name"> <br>
+                <input type="number" name="" placeholder="Enter your Age">
+                <!-- <input type="text" name="" placeholder="Enter your Gender"><br> -->
+                <div class="center">
+                    <h4>Enter your Gender</h4>
+                    <label>
+                        <input type="radio" name="radio">
+                        <span>Male</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="radio">
+                        <span>Female</span>
+                    </label>
+                </div>
+                <input type="text" name="" placeholder="Enter your Locality"><br>
+                <input type="text" name="" placeholder="Enter your Email Id"><br>
+                <input type="text" name="" placeholder="Enter your Number"><br>
+                <button class="btn1"> Submit here</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

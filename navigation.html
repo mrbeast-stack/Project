@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        .navbar {
+            background-color: rgb(250, 67, 67);
+            width: auto;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: black;
+        }
+
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 1px 8px;
+            padding: 10px 10px;
+        }
+
+        .navbar li a:hover {
+            color: #ffffff
+        }
+
+        #search {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            margin-right: 200px;
+            width: 15%;
+            float: right;
+            padding: auto;
+            margin: 9px 25px;
+            border: 2px solid #565050;
+            border-radius: 12px;
+        }
+
+        #search:hover {
+            background-color: rgb(216, 207, 207);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li> <a href="#"> Home </a></li>
+                    <li> <a href="#"> About Us </a></li>
+                    <li> <a href="#"> Services </a></li>
+                    <li> <a href="#"> Courses </a></li>
+                    <input type="text" name="search" id="search" placeholder="Search this website">
+                </ul>
+            </nav>
+        </header>
+    </div>
+</body>
+
+</html>
